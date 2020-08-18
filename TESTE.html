@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+      body {
+        max-width: 640px;
+        min-width: 320px;
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 100% !important;
+        width: 100% !important;
+      }
+
+      center {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      a {
+        text-decoration: none !important;
+      }
+
+      p {
+        line-height: 1.4;
+      }
+
+      h4 {
+        font-size: 4.5vh;
+      }
+
+      .tabelas {
+        max-width: 640px;
+        align-self: center;
+        margin: 20px 0;
+        width: 100%;
+      }
+
+      .proporcao {
+        width: 50%;
+      }
+
+      .esconder {
+        display: none;
+      }
+
+      .img_header {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 20px 10px;
+      }
+
+      .img_titulo {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 20px 10px;
+        padding: 20px;
+      }
+
+      .header_container {
+        background-color: #ec7000;
+      }
+
+      .contatos {
+        padding: 10px;
+        line-height: 20px;
+      }
+
+      .p contatos {
+        float: none;
+        position: relative;
+        text-align: left;
+      }
+
+      #container {
+        margin-top: 0 !important;
+      }
+
+      .quadro_2 {
+        border: 1px solid #ec7000;
+        border-radius: 15px;
+      }
+
+      .quadro_1 {
+        background-color: #eee9e4;
+        padding: 20px;
+      }
+
+      .palito {
+        width: 2px;
+      }
+
+      .azul {
+        color: #003399;
+      }
+
+      .azul_negrito {
+        color: #003399;
+        font-weight: bold;
+      }
+
+      #tabela_contatos_1 {
+        padding: 15px 20px 0;
+      }
+
+      /* MEDIA QUERIES */
+
+      @media screen and (min-width: 320px) and (max-width: 639px) {
+        .esconder {
+          display: block;
+        }
+
+        #telefones {
+          display: none !important;
+        }
+      }
+
+      @media screen and (max-width: 640px) {
+        .centralizar_stacks {
+          display: block !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          direction: ltr !important;
+        }
+
+        table {
+          display: inline-block !important;
+        }
+
+        .palito {
+          display: none;
+        }
+
+        .proporcao {
+          width: 100%;
+        }
+
+        .contatos1 {
+          padding-left: 0 !important;
+        }
+
+        #tabela_contatos {
+          padding: 20px;
+          text-align: center;
+          display: block !important;
+        }
+
+        .img_titulo {
+          padding-left: 0;
+          margin: 10px 0 0 0;
+        }
+
+        .img_titulo1 {
+          margin: 0;
+        }
+
+        .centralizar_stacks {
+          text-align: center !important;
+        }
+
+        .centralizar {
+          text-align: center !important;
+          display: block !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+          float: none !important;
+        }
+        table.centralizar {
+          display: inline-block !important;
+        }
+
+        #container {
+          width: 100% !important;
+          margin: auto !important;
+        }
+      }
+    </style>
+
+    <title>TESTE - Oliver</title>
+  </head>
+
+  <body>
+    <center class="tabelas centralizar" id="container">
+      <table>
+        <tbody>
+          <!--HEADER-->
+          <tr>
+            <table align="center" class="tabelas">
+              <tr>
+                <td class="centralizar">
+                  <img
+                    src="./images/IAES04.png"
+                    align="right"
+                    class="img_header"
+                    alt="itau"
+                  />
+                </td>
+              </tr>
+            </table>
+          </tr>
+
+          <!--TITULO-->
+          <tr>
+            <table
+              align="center"
+              style="margin: auto; padding: 20px;"
+              border="0"
+              class="header_container tabelas"
+            >
+              <tr>
+                <td>
+                  <img
+                    src="./images/IAES05.png"
+                    class="img_titulo img_titulo1"
+                    alt="imagem de um avião"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td class="centralizar">
+                  <img
+                    src="images/IAES06.png"
+                    class="img_titulo"
+                    alt="Informações importantes sobre compras relacionadas ao turismo, cultura e viagens neste momento"
+                  />
+                </td>
+              </tr>
+            </table>
+          </tr>
+
+          <!--TABELA INTRO-->
+          <tr>
+            <table class="tabelas">
+              <tr>
+                <td style="padding: 0 25px;" class="centralizar">
+                  <h4 class="azul_negrito">Olá, código!</h4>
+                  <p style="color: #797979;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Fugiat totam soluta autem deleniti. Iusto possimus debitis
+                    quasi enim atque excepturi necessitatibus voluptatum sunt
+                    ipsum magni, provident quidem repellat neque inventore.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </tr>
+
+          <!--TABELA TEXTO-->
+          <tr>
+            <table style="background-color: #faf7f5; padding: 20px 25px 0;">
+              <td class="centralizar">
+                <p style="color: #797979;">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                  reprehenderit, laboriosam nulla possimus praesentium amet
+                  fugit a quod quisquam. In molestias aliquid hic velit iste
+                  tempore odio beatae minima architecto.
+                </p>
+              </td>
+            </table>
+          </tr>
+
+          <!--TABELA IMAGENS-->
+          <tr>
+            <table
+              style="
+                background-color: #faf7f5;
+                padding: 0 20px 20px;
+                margin-bottom: 35px;
+              "
+              class="centralizar_stacks"
+            >
+              <tbody>
+                <tr>
+                  <td class="centralizar">
+                    <img
+                      src="./images/IAES07.png"
+                      style="margin: 20px;"
+                      width="80"
+                    />
+                  </td>
+                  <td class="centralizar">
+                    <p style="color: #797979;">
+                      <span class="azul_negrito"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</span
+                      >
+                      Accusantium itaque iure ullam sequi! Quaerat voluptate nam
+                      doloremque animi vitae. Blanditiis ipsam facere a error
+                      doloremque in assumenda iste corrupti aliquid?
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="centralizar">
+                    <img
+                      src="./images/IAES08.png"
+                      style="margin: 20px;"
+                      width="80"
+                    />
+                  </td>
+                  <td class="centralizar">
+                    <p style="color: #797979;">
+                      <span class="azul_negrito"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</span
+                      >
+                      Accusantium itaque iure ullam sequi! Quaerat voluptate nam
+                      doloremque animi vitae. Blanditiis ipsam facere a error
+                      doloremque in assumenda iste corrupti aliquid?
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="centralizar">
+                    <img
+                      src="./images/IAES09.png"
+                      style="margin: 20px;"
+                      width="80"
+                    />
+                  </td>
+                  <td class="centralizar">
+                    <p style="color: #797979;">
+                      <span class="azul_negrito"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</span
+                      >
+                      Accusantium itaque iure ullam sequi! Quaerat voluptate nam
+                      doloremque animi vitae. Blanditiis ipsam facere a error
+                      doloremque in assumenda iste corrupti aliquid?
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </tr>
+
+          <!--TABELA MPs-->
+          <tr>
+            <table
+              align="center"
+              class="quadro_2 tabelas"
+              style="max-width: 600px; text-align: center; margin-bottom: 35px;"
+            >
+              <th
+                style="text-align: center; padding: 30px;"
+                class="azul_negrito"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </th>
+
+              <tr>
+                <td
+                  class="centralizar"
+                  style="padding-bottom: 30px; text-align: center;"
+                >
+                  <a href="http://www.google.com"
+                    ><img
+                      src="./images/IAES10.png"
+                      style="margin: 10px; max-width: 250px;"
+                      alt="Confira a MP 948"
+                  /></a>
+                  <a href="http://www.google.com"
+                    ><img
+                      src="./images/IAES11.png"
+                      style="margin: 10px; max-width: 250px;"
+                      alt="Confira a MP 925"
+                  /></a>
+                </td>
+              </tr>
+            </table>
+          </tr>
+
+          <!--TABELA CONTATOS-->
+          <tr>
+            <table
+              id="tabela_contatos"
+              class="quadro_1 tabelas"
+              align="center"
+              style="margin-bottom: 0; padding-bottom: 0;"
+            >
+              <tr>
+                <td class="centralizar proporcao">
+                  <table id="tabela_contatos_1">
+                    <tr>
+                      <td class="centralizar">
+                        <p style="color: #ec7000; font-weight: bold;">
+                          Acesse nossos canais digitais
+                        </p>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="centralizar">
+                        <p class="azul" style="margin: 0 10px 0 0;">
+                          Durante esse momento delicado, nossas centrais estão
+                          operando com capacidade reduzida. Dê preferência aos
+                          canais digitais.
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td class="palito">
+                  <img src="images/IAES03.png" width="1" height="130" />
+                </td>
+
+                <td align="center" class="centralizar proporcao">
+                  <table id="links">
+                    <tr>
+                      <td style="vertical-align: middle;">
+                        <img
+                          src="./images/IAES01.png"
+                          width="50"
+                          style="vertical-align: middle;"
+                          alt="imagem computador"
+                        />
+                        <a
+                          href="http://www.itau.com.br"
+                          class="azul_negrito"
+                          style="vertical-align: middle;"
+                          >itaucard.com.br</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="vertical-align: middle;" class="centralizar">
+                        <img
+                          src="./images/IAES02.png"
+                          alt="imagem celular"
+                          width="50"
+                          style="vertical-align: middle;"
+                        />
+                        <a
+                          href="https://play.google.com/store/apps/details?id=com.itau&hl=pt_BR"
+                          class="azul"
+                          style="vertical-align: middle;"
+                          >app no celular</a
+                        >
+                      </td>
+                    </tr>
+                    <!-------------HIDE------------>
+                    <tr class="esconder">
+                      <td class="centralizar">
+                        <p class="azul contatos1">
+                          <a href="tel:08007244845" class="azul_negrito">SAC</a>
+                          <br />
+                          0800 724 4845
+                        </p>
+                      </td>
+                    </tr>
+                    <tr class="esconder">
+                      <td class="centralizar">
+                        <p class="azul">
+                          <a href="tel:08005700011" class="azul_negrito"
+                            >Ouvidoria</a
+                          >
+                          <br />
+                          0800 570 0011
+                        </p>
+                      </td>
+                    </tr>
+                    <tr class="esconder">
+                      <td class="centralizar">
+                        <p class="azul">
+                          <a href="tel:08007244838" class="azul_negrito"
+                            >Deficiente auditivo/fala</a
+                          >
+                          <br />
+                          0800 724 4838
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr id="telefones">
+                <table
+                  id="telefones"
+                  class="tabelas"
+                  style="background-color: #eee9e4; margin: 0;"
+                  align="center"
+                >
+                  <tr align="center">
+                    <td class="contatos centralizar">
+                      <p class="azul contatos1">
+                        <a href="tel:08007244845" class="azul_negrito">SAC</a>
+                        <br />
+                        0800 724 4845
+                      </p>
+                    </td>
+                    <td class="contatos centralizar">
+                      <p class="azul">
+                        <a href="tel:08005700011" class="azul_negrito"
+                          >Ouvidoria</a
+                        >
+                        <br />
+                        0800 570 0011
+                      </p>
+                    </td>
+                    <td class="contatos centralizar">
+                      <p class="azul">
+                        <a href="tel:08007244838" class="azul_negrito"
+                          >Deficiente auditivo/fala</a
+                        >
+                        <br />
+                        0800 724 4838
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </tr>
+            </table>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </body>
+</html>
